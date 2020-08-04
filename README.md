@@ -26,7 +26,7 @@ import 'package:smooth_star_rating/smooth_star_rating.dart';
 ```java 
 SmoothStarRating(
           allowHalfRating: false,
-          onRatingChanged: (v) {
+          onRated: (v) {
             rating = v;
             setState(() {});
           },
